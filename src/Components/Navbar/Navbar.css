@@ -1,0 +1,38 @@
+.nav{
+    width: 200px;
+    height: 100%;
+    background-color: #140B37;
+    min-height:100vh;
+}
+
+.nav p{
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    font-weight: 25px;
+    padding: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+   
+}
+.nav p:hover{
+    /* margin-left: 4px;
+    height: 45px;
+    width: 90%;
+    border-radius: 5px; */
+    background-color: rgb(87, 85, 85);
+    
+}
+Link{
+    text-decoration: none;
+}
+span{
+    margin-left: 10px;
+}
+.logo-main-nav{
+    padding:10px;
+}
+.logo-main-nav span{
+    color: white;
+    font-size: 30px;
+}

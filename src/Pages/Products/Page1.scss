@@ -1,0 +1,153 @@
+body{ 
+background: rgba(217, 217, 217, 0.3);
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.first-box{
+    margin: 20px;
+    width: 95%;
+    height: 470px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+}
+.first-box input{
+    width: 93%;
+    height: 45px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.25);
+    
+}
+
+.head{
+    font-size: 18px;
+    margin-left: 10px;
+    padding: 10px;
+}
+.prod-name{
+    font-size: 18px;
+    margin: 10px;
+}
+.prod-price{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.prod-price input{
+    width: 460px;
+}
+.prod-price p{
+    margin-left: 10px;
+}
+input[type="text"]{
+   padding: 20px;
+   opacity: 70%;
+}
+h1,p{
+    opacity: 80%;
+    font-weight: 100px;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400&display=swap');
+
+@mixin boxess($border-radius){
+    padding:0.2rem;
+    margin: 0.5rem;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: $border-radius;
+    font-size: 0.9rem;
+}
+.container{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    font-family: 'DM Sans';
+    font-size: 0.8rem;
+}
+.p-box-below{
+    @include boxess(0.6rem);
+    color:rgba(0,0,0,0.75);
+    display:flex;
+    flex-direction: column;
+    width: 96%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-weight: 500;
+    color:#686868;
+}
+.p-desc-textarea{
+    @include boxess(0.4rem);
+    height: 5rem;
+    width: 96%;
+    resize: none;
+    border:none;
+}
+.p-img-box{
+    @include boxess(0.4rem);
+    height: 4rem;
+    width: 4rem;
+    padding: 0.5rem;
+}
+.p-add-inventory{
+    @include boxess(0.4rem);
+    padding: 0.6rem;
+    &.available-items-box{
+        
+        @include boxess(0.2rem);
+        border:none;
+        height: 1.5rem;
+        width: 15rem;
+    }
+}
+.p-add-sizes,
+.p-add-colors{
+    @include boxess(0.4rem);
+    padding: 0.6rem;
+    display:flex;
+    flex-direction: column;
+}
+.p-invent-desc,
+.p-add-size-title,
+.p-add-color-title{
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    border-bottom: solid;
+    border-width: 0.05rem;
+    border-color: #d9d9d9;
+}
+.p-add-size-box, .p-add-color-box{
+    @include boxess(0.2rem);
+    font-size: 0.6rem;
+    border: none;
+    padding:0.4rem 1rem;
+    align-self: center;
+    justify-self: center;
+}
+.p-invent-box{
+    font-size: 0.6rem;
+    padding-top: 0.6rem;
+}
+.add-prod-btn{
+    width: 8rem;
+    position: relative;
+    left:35rem;
+    top:1rem;
+
+}
+.desc-t , .desc-i{
+    padding:0.4rem;
+}

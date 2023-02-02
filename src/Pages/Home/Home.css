@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.body{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+
+}
+.another{
+    display: flex;
+    flex-direction: column;
+}
+.box-container{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 15px;
+
+}
+Box{
+ margin-bottom: 10px;
+}
+
+/* .header{
+    padding: 5px;
+    margin-left:200px;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 60.19px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(122, 113, 113, 0.1);
+}
+.header input{
+    margin-left: 300px; */
+    /* position: absolute; */
+    /* width: 331.68px;
+    margin-top: 10px;
+    height: 30.67px;
+    background: rgba(217, 217, 217, 0.3);
+    border-radius: 5px;
+    transform: translateZ(2px);
+    box-shadow: 3px 2px 6px 0px  rgba(35, 25, 25, 0.25);
+    }
+    .header h1{
+        margin: 10px;
+        margin-left: 54px;
+        font-size: large;
+        font-weight: 200;
+    } */
+/* .nav{
+    width: 200px;
+    height: 100vh;
+    background-color: #140B37;
+}
+
+.nav p{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 25px;
+    padding: 10px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+.nav p:hover{
+    margin-left: 4px;
+    height: 15px;
+    width: 85%;
+    border-radius: 5px;
+    background-color: rgb(87, 85, 85);
+}
+.box{
+    padding: 9px;
+position: absolute;
+top: 150px;
+left: 450px;
+width: 450px;
+height: 380px;
+background: white;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+} */
+
+/* .box{
+    width: 500px;
+    height: 400px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-left: 400px;
+    margin-top: 2px;
+    } */
+    .home span{
+      margin-top: 0.1px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .delievery img{
+        width: 20px;
+        margin-left: 10px;
+    }
